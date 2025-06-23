@@ -1,0 +1,26 @@
+/* Personalización del botón principal */
+.btn-primary {
+  background-color: #ff5733;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Cards personalizadas */
+.card {
+  border-radius: 15px;
+}
+
+/* Responsive personalizado */
+@media (max-width: 576px) {
+  body {
+    background-color: #f0fff0;
+  }
+  header h1 {
+    font-size: 1.8rem;
+  }
+}
